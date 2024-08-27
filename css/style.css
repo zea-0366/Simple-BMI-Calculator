@@ -1,3 +1,6 @@
+html {
+  position: fixed;
+}
 css body {
   text-align: center;
   border: 5px solid rgb(16, 15, 15);
@@ -31,6 +34,10 @@ label {
   margin-bottom: 5px;
   font-weight: bold;
   padding: 10px 50px;
+}
+
+label {
+  padding: 10px
 }
 
 /* style untuk kolom tbd.bbsd dan usia */
