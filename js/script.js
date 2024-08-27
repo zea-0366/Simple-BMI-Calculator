@@ -16,7 +16,7 @@ function calculateBMI() {
   const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = `Your BMI is: ${bmi.toFixed(2)}<br />`;
   // Add logic for age and gender interpretation (example)
-  if (gender === "male" && age >= 18 && age >= 30) {
+  if (gender === "male" && age >= 18 && age >=  20) {
     if (bmi < 18.5) {
       resultDiv.innerHTML += "You are underweight for your age and gender.";
     } else if (bmi >= 18.5 && bmi < 25) {
@@ -26,7 +26,7 @@ function calculateBMI() {
     } else {
       resultDiv.innerHTML += "You are obese for your age and gender.";
     }
-  } else if (gender === "female" && age >= 18 && age >= 30) {
+  } else if (gender === "female" && age >= 18 && age >= 20) {
     if (bmi < 18.5) {
       resultDiv.innerHTML += "You are underweight for your age and gender.";
     } else if (bmi >= 18.5 && bmi < 25) {
