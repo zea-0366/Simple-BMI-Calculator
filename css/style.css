@@ -37,7 +37,20 @@ label {
 }
 
 label {
-  padding: 60px ;
+  padding: 10px ;
+}
+
+input {
+  box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25), 10px 10px 70px rgba(0, 0, 0, 0.25), inset -5px -5px 15px rgba(0, 0, 0, 0.25), inset 5px 5px 15px rgba(0, 0, 0, 0.5)
+}
+
+input#age {
+  margin-right: 85px;
+    margin-left: 65px;
+}
+
+select#gender {
+  box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25), 10px 10px 70px rgba(0, 0, 0, 0.25), inset -5px -5px 15px rgba(0, 0, 0, 0.25), inset 5px 5px 15px rgba(0, 0, 0, 0.5)
 }
 
 /* style untuk kolom tbd.bbsd dan usia */
@@ -47,7 +60,6 @@ select {
   background-color: rgb(137, 166, 192);
   padding: 8px;
   border: 1px;
-  border: solid #ccc;
   border-radius: 4px;
   margin-bottom: 10px;
   box-shadow: rgb(29, 27, 27);
